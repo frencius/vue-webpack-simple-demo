@@ -1,9 +1,8 @@
 <template>
   <div id="app">
     <app-header></app-header>
-    <h1>{{ title }}</h1>
-    <app-footer></app-footer>
     <app-navigation></app-navigation>
+    <app-footer></app-footer>
   </div>
 </template>
 
@@ -11,12 +10,14 @@
   import Header from './components/Header.vue';
   import Footer from './components/Footer.vue';
   import Navigation from './components/Navigation-menu.vue';
+  import Table from './components/Table.vue';
   
   export default {
     components : {
       'app-header': Header,
       'app-footer': Footer,
-      'app-navigation' : Navigation
+      'app-navigation' : Navigation,
+      'table-data' : Table
     },
     data () {
       return {
