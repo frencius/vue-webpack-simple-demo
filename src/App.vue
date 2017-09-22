@@ -3,17 +3,20 @@
     <app-header></app-header>
     <h1>{{ title }}</h1>
     <app-footer></app-footer>
+    <app-navigation></app-navigation>
   </div>
 </template>
 
 <script>
   import Header from './components/Header.vue';
   import Footer from './components/Footer.vue';
+  import Navigation from './components/Navigation-menu.vue';
   
   export default {
     components : {
       'app-header': Header,
-      'app-footer': Footer
+      'app-footer': Footer,
+      'app-navigation' : Navigation
     },
     data () {
       return {
