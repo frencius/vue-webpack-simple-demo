@@ -16,7 +16,7 @@
 
 <style scoped>
 	footer {
-		background: #222;
+		background: #1D8CE0;
 	}
 
 	h1 {

@@ -1,4 +1,4 @@
 vue-webpack-simple-demo
 
-npm install
+npm install,
 npm run dev

@@ -1,23 +1,21 @@
 <template>
   <div id="app">
     <app-header></app-header>
-    <app-navigation></app-navigation>
+    <app-content></app-content>
     <app-footer></app-footer>
   </div>
 </template>
 
 <script>
   import Header from './components/Header.vue';
+  import Content from './components/Content.vue';
   import Footer from './components/Footer.vue';
-  import Navigation from './components/Navigation-menu.vue';
-  import Table from './components/Table.vue';
   
   export default {
     components : {
       'app-header': Header,
       'app-footer': Footer,
-      'app-navigation' : Navigation,
-      'table-data' : Table
+      'app-content' : Content
     },
     data () {
       return {
