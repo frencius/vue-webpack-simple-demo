@@ -1,6 +1,7 @@
 export default {
-  '/': 'App',
-  '/about': 'petani/Index',
+  '/': 'pages/orders/Index',
+  '/orders/create' : 'pages/orders/Create',
+  '/sales': 'pages/sales/Index',
   '/xyz': 'App'
 
 }

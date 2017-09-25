@@ -6,11 +6,11 @@
           <el-submenu index="1">
             <template slot="title"><i class="el-icon-message"></i>Main Menu</template>
             <el-menu-item-group title="Pesanan">
-              <el-menu-item index="1-1"><a href="/xyz"> Baru </a></el-menu-item>
-              <el-menu-item index="1-2"><v-link href="/about">Konfirmasi</v-link></el-menu-item>
+              <el-menu-item index="1-1"><a href="/"> Baru </a></el-menu-item>
+              <el-menu-item index="1-2"><v-link href="/">Konfirmasi</v-link></el-menu-item>
             </el-menu-item-group>
             <el-menu-item-group title="Sales">
-              <el-menu-item index="1-3">Top Up</el-menu-item>
+              <el-menu-item index="1-3"><v-link href="/sales">List Sales</v-link></el-menu-item>
             </el-menu-item-group>
             <el-submenu index="1-4">
               <template slot="title">Kios</template>
