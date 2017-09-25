@@ -7,10 +7,10 @@
 </template>
 
 <script>
-  import Header from './components/Header.vue';
-  import Content from './components/Content.vue';
-  import Footer from './components/Footer.vue';
-  
+  import Header from './Header.vue';
+  import Content from './Content.vue';
+  import Footer from './Footer.vue';
+
   export default {
     components : {
       'app-header': Header,
@@ -32,7 +32,6 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 
 h1, h2 {
